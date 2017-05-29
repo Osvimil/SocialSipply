@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	background-color: #F5F5F5;
+}
+h1{
+	font-family: 'Nobile',sans-serif;
+	text-align: center;
+	font-size: 175%;
+	color:#4A4444;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding:5% 0;
+}
+
+.social li{
+	display: block;
+	margin:0;
+	padding:0;
+	width:16.666666667%;
+	float:left;
+}
+.social i{
+	color:#fff;
+	font-size: 190%;
+	opacity:0.5;
+	margin:0;
+	text-align: center;
+	width:100%;
+	padding:4%;
+	box-sizing:border-box;
+}
+.social i:hover{
+	opacity:1;
+}
+#facebook{
+	background-color: #3A5795;
+}
+#twitter{
+	background-color: #5EA9DD;
+}
+#instagram{
+	background-color: #527FA4;
+}
+#gmail{
+	background-color: #D95232;
+}
+#youtube{
+	background-color: #E12B27;
+}
+#mail{
+	background-color: #C92C19;
+}
+@media screen and (max-width: 980px) {
+	h1{
+		font-size: 150%;
+	}
+	.social i{
+		font-size: 175%;
+		padding:3%;
+	}
+	.social li{
+		width:50%;
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	h1{
+		font-size: 125%;
+	}
+	.social i{
+		font-size: 155%;
+		padding:2%;
+	}
+	.social li{
+		width:100%;
+		float: none;
+	}
+	
+}
